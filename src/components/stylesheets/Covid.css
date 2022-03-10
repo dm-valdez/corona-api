@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-image: linear-gradient(315deg, #9e8fb2 0%, #a7acd9 74%);
+  height: 80px;
+  width: 100%;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  margin: 25px 50px;
+  color: white;
+}
+
+nav ul li:last-child {
+  float: right;
+}
+
+nav ul li .logout {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid #7f53ac;
+  width: 100%;
+  cursor: pointer;
+  color: #fff;
+}
+
+nav ul li .logout:hover {
+  color: #7f53ac;
+}
+
+.covid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.covid-row {
+  display: flex;
+  flex-direction: row;
+  justify-items: start;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #d7d7d7;
+  width: 1000px;
+}
+
+.covid {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+  min-width: 300px;
+}
+
+.covid h1 {
+  font-size: 16px;
+  width: 150px;
+}
+
+.covid img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.covid-code {
+  text-transform: uppercase;
+}
+
+.covid-data {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.covid-active {
+  width: 100%;
+}
+
+.covid-cases {
+  width: 100%;
+}
+
+.covid-deaths {
+  width: 100%;
+}
+
+.covid-recovered {
+  width: 100%;
+}
+
+.red {
+  color: #f00606;
+}
+
+.green {
+  color: #11d811;
+}
